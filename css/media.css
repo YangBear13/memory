@@ -1,0 +1,40 @@
+@media only screen and (min-width:480px) {
+	.banner-filter {
+		height: 80%;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.navbar {
+		display: block;
+	}
+
+	.navbar-nav {
+		display: flex;
+	}
+
+	.navbar-nav .nav-link::after {
+		background-color: #fff;
+	}
+
+	.hub {
+		display: none;
+	}
+
+	.phone-number {
+		display: block;
+	}
+
+	/* banner */
+	.slider-overlay {
+		height: 100%;
+		position: absolute;
+	}
+
+	/* banner end */
+
+	@media only screen and (min-width:1130px) {
+		.banner {
+			height: 100vh;
+		}
+	}

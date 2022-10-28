@@ -1,0 +1,36 @@
+
+/* 初始化部分 */
+*,
+::before,
+::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input,
+textarea,
+button,
+select {
+	border: none;
+	outline: none;
+	resize: none;
+}
+ul,li {
+	list-style: none;
+}
+/* 通用类 */
+.w100 {
+	width: 100%;
+}
